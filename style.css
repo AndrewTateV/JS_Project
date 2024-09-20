@@ -1,0 +1,58 @@
+
+
+*,
+*::before
+*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+
+body{
+
+width: 100wh;
+display: grid;
+place-items: center;
+
+
+}
+
+
+input{
+font-size: 3.2rem;
+
+
+}
+
+
+span {
+  text-align: center;
+  border: 1px solid;
+  margin: 1rem;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  transition: 0.1s;  /* 设置动画效果持续时间 */
+  cursor: pointer;
+  display: block;
+}
+
+span:active {
+  background-color: black;  /* 设置按下时背景色为黑色 */
+  color: white;  /* 设置按下时文字颜色为白色 */
+}
+
+table,
+th,
+td{
+  border: 1px solid;
+  border-collapse: collapse;
+}
+th,td{
+  width: 20rem;
+  text-align: center;
+}
